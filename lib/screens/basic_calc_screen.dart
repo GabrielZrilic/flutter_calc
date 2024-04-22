@@ -37,7 +37,7 @@ class BasicCalcScreen extends StatelessWidget {
                         provider.resultString,
                         textScaler: const TextScaler.linear(2),
                         style: TextStyle(
-                            color: Theme.of(context).secondaryHeaderColor),
+                            color: Theme.of(context).disabledColor),
                       )),
                 ],
               )),
